@@ -1,0 +1,26 @@
+[user]
+  name = user_name
+  email = user_email
+[alias]
+  co = checkout
+  br = branch
+  p = push
+  po = push origin
+  pom = push origin master
+  pr = pull --rebase
+  m = merge
+  d = diff
+  dc = diff
+  cm = commit
+  st = status
+  cman = commit --amend --no-edit
+  cma = commit --amend
+  dc = diff --cached
+[core]
+  editor = subl -w
+  excludesfile = /Users/user_name/.gitignore
+[color]
+  ui = true
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
